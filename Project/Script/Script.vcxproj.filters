@@ -1,0 +1,725 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Script">
+      <UniqueIdentifier>{585f2ba7-813f-4532-9a95-b2967ae06511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Default">
+      <UniqueIdentifier>{6546fd48-44d9-4960-9249-56cca8c1ccc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character">
+      <UniqueIdentifier>{368a10c7-415d-4920-92cf-359be94cfbe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Player">
+      <UniqueIdentifier>{7eb64206-b4b5-4a57-b038-e951f78e9bdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Player\Cloud">
+      <UniqueIdentifier>{4d309c49-ae75-43c7-a93b-7b24417137f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\FSM">
+      <UniqueIdentifier>{8dcb75b7-ceda-47b8-b50e-61b6196c54dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\FSM\Base">
+      <UniqueIdentifier>{de0ac7fa-fd06-41ea-800f-c0e5c4e87428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\FSM\StateMachine">
+      <UniqueIdentifier>{fa7f914a-1a1b-4b84-8ee5-20102e2d0935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Camera">
+      <UniqueIdentifier>{5751d94f-06fb-4918-8346-126c5aa643a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Camera\EditorCamera">
+      <UniqueIdentifier>{6ab00aab-2fdb-4e73-ba03-d0f8a965a2dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Camera\PlayCamera">
+      <UniqueIdentifier>{65156ad8-7d5f-4838-8a53-db656a89ee43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Camera\PlayCamera\PlayerCamera">
+      <UniqueIdentifier>{ef10cc38-e35c-4c87-bd42-941a0ba532ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Effect">
+      <UniqueIdentifier>{9770cca2-9774-4bd2-8a41-6d26f1bbeeb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\UI">
+      <UniqueIdentifier>{5d409ffd-96cf-426d-8100-27d65f4fe431}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\UI\ButtonUI">
+      <UniqueIdentifier>{da5ca957-d049-49bf-9e95-a7f4e9fb1734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\UI\TextUI">
+      <UniqueIdentifier>{af069aca-0fd9-4595-b8cf-f2603ba1679d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\UI\MenuUI">
+      <UniqueIdentifier>{d256254f-14d5-4a00-b468-a4669aea8622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Player\Cloud\Body">
+      <UniqueIdentifier>{405b7333-5aec-4eb3-9fb2-cd0b9252cb5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\UI\ButtonUI\ButtonEffect">
+      <UniqueIdentifier>{15ec18c0-8705-49a3-834f-829258575744}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{f173762f-26d7-4017-aa81-f20d62c9cfbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\ScriptMgr">
+      <UniqueIdentifier>{78d2676d-e9d6-47ca-8d90-52e8d457d264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\GameMgr">
+      <UniqueIdentifier>{47b5e995-19ac-4201-bb42-d792f31472cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\UIMgr">
+      <UniqueIdentifier>{8de120a0-8b9d-4b66-acdb-7bb14a7454f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\UI\ImageUI">
+      <UniqueIdentifier>{2aeffe60-febd-4ae5-81b0-81baef3ed21f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\UI\DefualtUI">
+      <UniqueIdentifier>{4bcb9dfe-a46b-4711-a1de-ad91f6d9270b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\UI\SelectUI">
+      <UniqueIdentifier>{f04067ad-0f79-4f23-bc80-2fcf28531185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\UI\FillUI">
+      <UniqueIdentifier>{5422ca35-1b30-495a-9eb2-f3ffbe01ecbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\UI\CharacterUI">
+      <UniqueIdentifier>{d7745fc1-10e3-4a4d-8188-64eb0c392fd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\UI\WorldTextUI">
+      <UniqueIdentifier>{1dbe6eed-6e75-49e9-b2e8-0eec6cd960e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Player\Cloud\Weapon">
+      <UniqueIdentifier>{05db8060-4ca3-4383-8bc8-8995df6a5923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Player\Cloud\ETC">
+      <UniqueIdentifier>{3343af6c-088f-46a0-9aab-95662e6c5d07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Player\Cloud\ETC\AttackRange">
+      <UniqueIdentifier>{5ea55411-453f-4dba-aede-4a2df3c2c1ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Player\Barret">
+      <UniqueIdentifier>{a53541af-efb0-4a0a-997a-92e27170eab1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Player\Barret\Weapon">
+      <UniqueIdentifier>{e6e945e4-c694-4ea8-b433-f2e1dd8e6b39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Enemy">
+      <UniqueIdentifier>{56e58b4d-6027-4187-ac66-e8d00bc0e6c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Enemy\HundredGunner">
+      <UniqueIdentifier>{6f545207-5ab5-4880-8b98-48459919e2d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Enemy\HundredGunner\Body">
+      <UniqueIdentifier>{3465849b-3eef-4ca7-9a3d-b521cd0d6c19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Enemy\HundredGunner\Body\BackWeapon">
+      <UniqueIdentifier>{bc7983d2-078d-4fc4-9519-e42c0f32d746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Enemy\HundredGunner\Body\RightArm">
+      <UniqueIdentifier>{a0a128c5-8318-4f2d-b57a-10c546eae07f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Enemy\HundredGunner\Body\RightArm\State">
+      <UniqueIdentifier>{c92e23cd-f271-441a-8bf4-4c3f7cb4c3ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Enemy\HundredGunner\Body\0. Base">
+      <UniqueIdentifier>{2bf23ca2-6b5c-4127-b3c7-e4e8eddfa60b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Enemy\HundredGunner\Body\0. Base\State">
+      <UniqueIdentifier>{afe3fc65-a00e-4f85-acba-9d2974dc5cf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Enemy\HundredGunner\HomingLazer">
+      <UniqueIdentifier>{42493d96-11ec-496a-85bd-35e1fd03179c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Enemy\HundredGunner\HomingLazer\State">
+      <UniqueIdentifier>{c2ebbd40-35c9-4320-a92a-cf5dc706fa88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Enemy\HundredGunner\PrimaryFire">
+      <UniqueIdentifier>{bc20e4cb-0a3c-4c2c-8e66-9b0e74e21624}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Enemy\HundredGunner\SaturationFire">
+      <UniqueIdentifier>{5f7a708a-8767-4e79-9b21-5a8a4434a0ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Enemy\HundredGunner\SaturationFire\Bullet">
+      <UniqueIdentifier>{bf95400e-c37b-479d-8dd2-a9874f116d59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Enemy\Soldier">
+      <UniqueIdentifier>{9df45ea3-125d-47f7-8426-0f0a0dc37362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\UI\TargetUI">
+      <UniqueIdentifier>{3c5ad2b7-d86e-4c16-b50e-09201bb2799c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Player\Base">
+      <UniqueIdentifier>{e3aa389b-37cf-411a-a30c-23d519845d19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Player\Base\FindEnemy">
+      <UniqueIdentifier>{ff89655d-5cdb-4c4c-99c3-8b841ecad09c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Player\Base\CharacterData">
+      <UniqueIdentifier>{da01fcc4-0586-4d2c-b508-0fb965752060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Player\Base\CharacterData\PlayerData">
+      <UniqueIdentifier>{c7853e8e-7b10-4da5-b434-dfeee12ef200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Player\Base\AttackData">
+      <UniqueIdentifier>{9165c799-6ad3-4b13-a0f8-88e8d2b86fc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Player\Barret\Weapon\Attack">
+      <UniqueIdentifier>{b41c6319-13e0-4416-aeec-41ea76bf0dbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Player\Cloud\Weapon\Effect">
+      <UniqueIdentifier>{16b28285-5d72-4ddd-873b-dd4c35926a2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Player\Cloud\Weapon\Effect\Spark">
+      <UniqueIdentifier>{b0d2f0d9-2537-421d-82de-90f3f187b159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Player\Cloud\Weapon\Effect\Flash">
+      <UniqueIdentifier>{37339d14-094f-4492-8f66-450f1dbd9e29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\ObjectPoolMgr">
+      <UniqueIdentifier>{44a6aeed-f3ec-4b4e-baf0-58ba78831424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Magic">
+      <UniqueIdentifier>{4d5392b8-377a-4c5c-803a-1c029c886606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Magic\Fire">
+      <UniqueIdentifier>{59a470be-3333-42ff-9fcb-b00aca6cb7bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Magic\Trail Effect">
+      <UniqueIdentifier>{7747100f-cb45-4d48-9c3f-18585e0d2cb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Magic\Explosion Effect">
+      <UniqueIdentifier>{54473e87-a14b-49ae-b01e-c37d46e09ab1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\UI\FillUI\0. Base">
+      <UniqueIdentifier>{57a758e4-0766-4a86-81c2-ef850760529d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Player\Barret\Weapon\Effect">
+      <UniqueIdentifier>{648e1e5b-d15f-4172-96fe-d6d7ca353b40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Player\Cloud\ETC\Effect">
+      <UniqueIdentifier>{1c315a00-7429-4faf-8abd-49ae5f390a1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Player\Cloud\ETC\Effect\Hit Effect">
+      <UniqueIdentifier>{94c8042e-4e24-4204-98f9-f4c695dd8a7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Player\Cloud\ETC\Effect\Slash Effect">
+      <UniqueIdentifier>{57760055-8720-4322-9534-52914c51d837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Player\Cloud\ETC\Effect\Lens Effect">
+      <UniqueIdentifier>{3f1d3746-84f0-40ee-afee-b6253b1393c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Player\Cloud\Ability">
+      <UniqueIdentifier>{9d762859-07fb-404a-927c-beadb635affe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Player\Cloud\Ability\BladeBurst">
+      <UniqueIdentifier>{1b5d4a62-677d-4a79-8c3a-8f940799d208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Player\Cloud\Ability\BladeBurst\Blade">
+      <UniqueIdentifier>{18927726-647c-497e-8e47-236b8feea88e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Player\Cloud\ETC\Effect\Break Effect">
+      <UniqueIdentifier>{8eafc7ea-75d1-40f0-a251-9ed3b37fe123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Player\Cloud\ETC\Effect\Break Effect\Electirc Effect">
+      <UniqueIdentifier>{31d45c2a-2b2c-4ee0-9abd-6f5fac8fbc73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Enemy\Soldier\SoldierState">
+      <UniqueIdentifier>{3600d8ff-68f5-495f-bff2-a8653c5a413b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Player\Base\HealEffect">
+      <UniqueIdentifier>{59e2e0d3-bc64-4de1-83ea-2055abbaaa1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\Character\Enemy\HundredGunner\Beam">
+      <UniqueIdentifier>{658a5934-dc34-4d38-bd6e-2c06484a59e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script\ETC">
+      <UniqueIdentifier>{463257b5-b489-415d-824f-b525426ca0dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptMgr.h">
+      <Filter>Manager\ScriptMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="func.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseState.h">
+      <Filter>Script\FSM\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>Script\FSM\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraMoveScript.h">
+      <Filter>Script\Camera\EditorCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCameraScript.h">
+      <Filter>Script\Camera\PlayCamera\PlayerCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectScript.h">
+      <Filter>Script\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="HomingLaserScript.h">
+      <Filter>Script\Character\Enemy\HundredGunner\HomingLazer</Filter>
+    </ClInclude>
+    <ClInclude Include="HomingLaserState.h">
+      <Filter>Script\Character\Enemy\HundredGunner\HomingLazer\State</Filter>
+    </ClInclude>
+    <ClInclude Include="BackWeaponScript.h">
+      <Filter>Script\Character\Enemy\HundredGunner\Body\BackWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="HundredGunnerState.h">
+      <Filter>Script\Character\Enemy\HundredGunner\Body\0. Base\State</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimaryFireScript.h">
+      <Filter>Script\Character\Enemy\HundredGunner\PrimaryFire</Filter>
+    </ClInclude>
+    <ClInclude Include="HundredGunnerScript.h">
+      <Filter>Script\Character\Enemy\HundredGunner\Body\0. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="HundredGunnerRightArmScript.h">
+      <Filter>Script\Character\Enemy\HundredGunner\Body\RightArm</Filter>
+    </ClInclude>
+    <ClInclude Include="HundredGunnerRightArmState.h">
+      <Filter>Script\Character\Enemy\HundredGunner\Body\RightArm\State</Filter>
+    </ClInclude>
+    <ClInclude Include="SaturationFireScript.h">
+      <Filter>Script\Character\Enemy\HundredGunner\SaturationFire</Filter>
+    </ClInclude>
+    <ClInclude Include="HundredBulletScript.h">
+      <Filter>Script\Character\Enemy\HundredGunner\SaturationFire\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonUIScript.h">
+      <Filter>Script\UI\ButtonUI</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuUIScript.h">
+      <Filter>Script\UI\MenuUI</Filter>
+    </ClInclude>
+    <ClInclude Include="TextUIScript.h">
+      <Filter>Script\UI\TextUI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMgr.h">
+      <Filter>Manager\UIMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudMoveScript.h">
+      <Filter>Script\Character\Player\Cloud\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudState.h">
+      <Filter>Script\Character\Player\Cloud\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonEffectScript.h">
+      <Filter>Script\UI\ButtonUI\ButtonEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMgr.h">
+      <Filter>Manager\GameMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="FindEnemyScript.h">
+      <Filter>Script\Character\Player\Base\FindEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageUIScript.h">
+      <Filter>Script\UI\ImageUI</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultUIScript.h">
+      <Filter>Script\UI\DefualtUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectUIScript.h">
+      <Filter>Script\UI\SelectUI</Filter>
+    </ClInclude>
+    <ClInclude Include="FillUIScript.h">
+      <Filter>Script\UI\FillUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterUIScript.h">
+      <Filter>Script\UI\CharacterUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterDataScript.h">
+      <Filter>Script\Character\Player\Base\CharacterData</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldTextUIScript.h">
+      <Filter>Script\UI\WorldTextUI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIScript.h">
+      <Filter>Script\UI\FillUI\0. Base</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudWeaponScript.h">
+      <Filter>Script\Character\Player\Cloud\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="CWeaponHitEffectScript.h">
+      <Filter>Script\Character\Player\Cloud\ETC\Effect\Hit Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="AtkRangeScript.h">
+      <Filter>Script\Character\Player\Cloud\ETC\AttackRange</Filter>
+    </ClInclude>
+    <ClInclude Include="BarretMotionScript.h">
+      <Filter>Script\Character\Player\Barret</Filter>
+    </ClInclude>
+    <ClInclude Include="BarretState.h">
+      <Filter>Script\Character\Player\Barret</Filter>
+    </ClInclude>
+    <ClInclude Include="BarretWeaponScript.h">
+      <Filter>Script\Character\Player\Barret\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="SoldierScript.h">
+      <Filter>Script\Character\Enemy\Soldier</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackDataScript.h">
+      <Filter>Script\Character\Player\Base\AttackData</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDataScript.h">
+      <Filter>Script\Character\Player\Base\CharacterData\PlayerData</Filter>
+    </ClInclude>
+    <ClInclude Include="TargetUIScript.h">
+      <Filter>Script\UI\TargetUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CSlashHitEffectScript.h">
+      <Filter>Script\Character\Player\Cloud\ETC\Effect\Slash Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="BarretWeaponState.h">
+      <Filter>Script\Character\Player\Barret\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="BarretNormalAtkScript.h">
+      <Filter>Script\Character\Player\Barret\Weapon\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="LensEffectScript.h">
+      <Filter>Script\Character\Player\Cloud\ETC\Effect\Lens Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="CWeaponSparkScript.h">
+      <Filter>Script\Character\Player\Cloud\Weapon\Effect\Spark</Filter>
+    </ClInclude>
+    <ClInclude Include="CWeaponFlashScript.h">
+      <Filter>Script\Character\Player\Cloud\Weapon\Effect\Flash</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPoolMgr.h">
+      <Filter>Manager\ObjectPoolMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicFireScript.h">
+      <Filter>Script\Character\Magic\Fire</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicFireTrailScript.h">
+      <Filter>Script\Character\Magic\Trail Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicFireExplosionScript.h">
+      <Filter>Script\Character\Magic\Explosion Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="BarretUpperCutScript.h">
+      <Filter>Script\Character\Player\Barret\Weapon\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="BarretUpperCutEffectScript.h">
+      <Filter>Script\Character\Player\Barret\Weapon\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="BarretNormalAtkEffectScript.h">
+      <Filter>Script\Character\Player\Barret\Weapon\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="BarretSmackDownEffectScript.h">
+      <Filter>Script\Character\Player\Barret\Weapon\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="BarretSmackDownScript.h">
+      <Filter>Script\Character\Player\Barret\Weapon\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="BarretLimitAtkEffectScript.h">
+      <Filter>Script\Character\Player\Barret\Weapon\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="BarretLimitAtkScript.h">
+      <Filter>Script\Character\Player\Barret\Weapon\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="BWeaponHitEffectScript.h">
+      <Filter>Script\Character\Player\Barret\Weapon\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="BladeScript.h">
+      <Filter>Script\Character\Player\Cloud\Ability\BladeBurst\Blade</Filter>
+    </ClInclude>
+    <ClInclude Include="BladeBurstScript.h">
+      <Filter>Script\Character\Player\Cloud\Ability\BladeBurst</Filter>
+    </ClInclude>
+    <ClInclude Include="BreakEffectScript.h">
+      <Filter>Script\Character\Player\Cloud\ETC\Effect\Break Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="ElectricEffectScript.h">
+      <Filter>Script\Character\Player\Cloud\ETC\Effect\Break Effect\Electirc Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="BWeaponLimitEffectScript.h">
+      <Filter>Script\Character\Player\Barret\Weapon\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="BarretMaximumFuryScript.h">
+      <Filter>Script\Character\Player\Barret\Weapon\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="BarretMuzzleEffectScript.h">
+      <Filter>Script\Character\Player\Barret\Weapon\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="BarretMaxFuryEffectScript.h">
+      <Filter>Script\Character\Player\Barret\Weapon\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="BWeaponShotEffectScript.h">
+      <Filter>Script\Character\Player\Barret\Weapon\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="SoldierState.h">
+      <Filter>Script\Character\Enemy\Soldier\SoldierState</Filter>
+    </ClInclude>
+    <ClInclude Include="SoldierWeaponScript.h">
+      <Filter>Script\Character\Enemy\Soldier\SoldierState</Filter>
+    </ClInclude>
+    <ClInclude Include="SoldierWeaponState.h">
+      <Filter>Script\Character\Enemy\Soldier\SoldierState</Filter>
+    </ClInclude>
+    <ClInclude Include="HealEffectScript.h">
+      <Filter>Script\Character\Player\Base\HealEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="BeamScript.h">
+      <Filter>Script\Character\Enemy\HundredGunner\Beam</Filter>
+    </ClInclude>
+    <ClInclude Include="RockScript.h" />
+    <ClInclude Include="HGFootScript.h" />
+    <ClInclude Include="ChangeLevelScript.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Script.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptMgr.cpp">
+      <Filter>Manager\ScriptMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="func.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseState.cpp">
+      <Filter>Script\FSM\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine.cpp">
+      <Filter>Script\FSM\StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraMoveScript.cpp">
+      <Filter>Script\Camera\EditorCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCameraScript.cpp">
+      <Filter>Script\Camera\PlayCamera\PlayerCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectScript.cpp">
+      <Filter>Script\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="HomingLaserScript.cpp">
+      <Filter>Script\Character\Enemy\HundredGunner\HomingLazer</Filter>
+    </ClCompile>
+    <ClCompile Include="HomingLaserState.cpp">
+      <Filter>Script\Character\Enemy\HundredGunner\HomingLazer\State</Filter>
+    </ClCompile>
+    <ClCompile Include="BackWeaponScript.cpp">
+      <Filter>Script\Character\Enemy\HundredGunner\Body\BackWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="HundredGunnerState.cpp">
+      <Filter>Script\Character\Enemy\HundredGunner\Body\0. Base\State</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimaryFireScript.cpp">
+      <Filter>Script\Character\Enemy\HundredGunner\PrimaryFire</Filter>
+    </ClCompile>
+    <ClCompile Include="HundredGunnerScript.cpp">
+      <Filter>Script\Character\Enemy\HundredGunner\Body\0. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="HundredGunnerRightArmScript.cpp">
+      <Filter>Script\Character\Enemy\HundredGunner\Body\RightArm</Filter>
+    </ClCompile>
+    <ClCompile Include="HundredGunnerRightArmState.cpp">
+      <Filter>Script\Character\Enemy\HundredGunner\Body\RightArm\State</Filter>
+    </ClCompile>
+    <ClCompile Include="SaturationFireScript.cpp">
+      <Filter>Script\Character\Enemy\HundredGunner\SaturationFire</Filter>
+    </ClCompile>
+    <ClCompile Include="HundredBulletScript.cpp">
+      <Filter>Script\Character\Enemy\HundredGunner\SaturationFire\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonUIScript.cpp">
+      <Filter>Script\UI\ButtonUI</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuUIScript.cpp">
+      <Filter>Script\UI\MenuUI</Filter>
+    </ClCompile>
+    <ClCompile Include="TextUIScript.cpp">
+      <Filter>Script\UI\TextUI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMgr.cpp">
+      <Filter>Manager\UIMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CloudMoveScript.cpp">
+      <Filter>Script\Character\Player\Cloud\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="CloudState.cpp">
+      <Filter>Script\Character\Player\Cloud\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonEffectScript.cpp">
+      <Filter>Script\UI\ButtonUI\ButtonEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMgr.cpp">
+      <Filter>Manager\GameMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="FindEnemyScript.cpp">
+      <Filter>Script\Character\Player\Base\FindEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageUIScript.cpp">
+      <Filter>Script\UI\ImageUI</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultUIScript.cpp">
+      <Filter>Script\UI\DefualtUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectUIScript.cpp">
+      <Filter>Script\UI\SelectUI</Filter>
+    </ClCompile>
+    <ClCompile Include="FillUIScript.cpp">
+      <Filter>Script\UI\FillUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterUIScript.cpp">
+      <Filter>Script\UI\CharacterUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterDataScript.cpp">
+      <Filter>Script\Character\Player\Base\CharacterData</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldTextUIScript.cpp">
+      <Filter>Script\UI\WorldTextUI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIScript.cpp">
+      <Filter>Script\UI\FillUI\0. Base</Filter>
+    </ClCompile>
+    <ClCompile Include="CloudWeaponScript.cpp">
+      <Filter>Script\Character\Player\Cloud\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="CWeaponHitEffectScript.cpp">
+      <Filter>Script\Character\Player\Cloud\ETC\Effect\Hit Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="AtkRangeScript.cpp">
+      <Filter>Script\Character\Player\Cloud\ETC\AttackRange</Filter>
+    </ClCompile>
+    <ClCompile Include="BarretMotionScript.cpp">
+      <Filter>Script\Character\Player\Barret</Filter>
+    </ClCompile>
+    <ClCompile Include="BarretState.cpp">
+      <Filter>Script\Character\Player\Barret</Filter>
+    </ClCompile>
+    <ClCompile Include="BarretWeaponScript.cpp">
+      <Filter>Script\Character\Player\Barret\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="BarretWeaponState.cpp">
+      <Filter>Script\Character\Player\Barret\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="SoldierScript.cpp">
+      <Filter>Script\Character\Enemy\Soldier</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackDataScript.cpp">
+      <Filter>Script\Character\Player\Base\AttackData</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerDataScript.cpp">
+      <Filter>Script\Character\Player\Base\CharacterData\PlayerData</Filter>
+    </ClCompile>
+    <ClCompile Include="TargetUIScript.cpp">
+      <Filter>Script\UI\TargetUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CSlashHitEffectScript.cpp">
+      <Filter>Script\Character\Player\Cloud\ETC\Effect\Slash Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="BarretNormalAtkScript.cpp">
+      <Filter>Script\Character\Player\Barret\Weapon\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="LensEffectScript.cpp">
+      <Filter>Script\Character\Player\Cloud\ETC\Effect\Lens Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="CWeaponSparkScript.cpp">
+      <Filter>Script\Character\Player\Cloud\Weapon\Effect\Spark</Filter>
+    </ClCompile>
+    <ClCompile Include="CWeaponFlashScript.cpp">
+      <Filter>Script\Character\Player\Cloud\Weapon\Effect\Flash</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectPoolMgr.cpp">
+      <Filter>Manager\ObjectPoolMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicFireScript.cpp">
+      <Filter>Script\Character\Magic\Fire</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicFireTrailScript.cpp">
+      <Filter>Script\Character\Magic\Trail Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicFireExplosionScript.cpp">
+      <Filter>Script\Character\Magic\Explosion Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="BarretUpperCutScript.cpp">
+      <Filter>Script\Character\Player\Barret\Weapon\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="BarretUpperCutEffectScript.cpp">
+      <Filter>Script\Character\Player\Barret\Weapon\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="BarretNormalAtkEffectScript.cpp">
+      <Filter>Script\Character\Player\Barret\Weapon\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="BarretSmackDownEffectScript.cpp">
+      <Filter>Script\Character\Player\Barret\Weapon\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="BarretSmackDownScript.cpp">
+      <Filter>Script\Character\Player\Barret\Weapon\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="BarretLimitAtkEffectScript.cpp">
+      <Filter>Script\Character\Player\Barret\Weapon\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="BarretLimitAtkScript.cpp">
+      <Filter>Script\Character\Player\Barret\Weapon\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="BWeaponHitEffectScript.cpp">
+      <Filter>Script\Character\Player\Barret\Weapon\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="BladeScript.cpp">
+      <Filter>Script\Character\Player\Cloud\Ability\BladeBurst\Blade</Filter>
+    </ClCompile>
+    <ClCompile Include="BladeBurstScript.cpp">
+      <Filter>Script\Character\Player\Cloud\Ability\BladeBurst</Filter>
+    </ClCompile>
+    <ClCompile Include="BreakEffectScript.cpp">
+      <Filter>Script\Character\Player\Cloud\ETC\Effect\Break Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="ElectricEffectScript.cpp">
+      <Filter>Script\Character\Player\Cloud\ETC\Effect\Break Effect\Electirc Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="BWeaponLimitEffectScript.cpp">
+      <Filter>Script\Character\Player\Barret\Weapon\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="BarretMaximumFuryScript.cpp">
+      <Filter>Script\Character\Player\Barret\Weapon\Attack</Filter>
+    </ClCompile>
+    <ClCompile Include="BarretMuzzleEffectScript.cpp">
+      <Filter>Script\Character\Player\Barret\Weapon\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="BarretMaxFuryEffectScript.cpp">
+      <Filter>Script\Character\Player\Barret\Weapon\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="BWeaponShotEffectScript.cpp">
+      <Filter>Script\Character\Player\Barret\Weapon\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="SoldierState.cpp">
+      <Filter>Script\Character\Enemy\Soldier\SoldierState</Filter>
+    </ClCompile>
+    <ClCompile Include="SoldierWeaponScript.cpp">
+      <Filter>Script\Character\Enemy\Soldier\SoldierState</Filter>
+    </ClCompile>
+    <ClCompile Include="SoldierWeaponState.cpp">
+      <Filter>Script\Character\Enemy\Soldier\SoldierState</Filter>
+    </ClCompile>
+    <ClCompile Include="HealEffectScript.cpp">
+      <Filter>Script\Character\Player\Base\HealEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="BeamScript.cpp">
+      <Filter>Script\Character\Enemy\HundredGunner\Beam</Filter>
+    </ClCompile>
+    <ClCompile Include="RockScript.cpp" />
+    <ClCompile Include="HGFootScript.cpp" />
+    <ClCompile Include="ChangeLevelScript.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Script.rc">
+      <Filter>Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
